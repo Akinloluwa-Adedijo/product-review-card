@@ -61,7 +61,7 @@ img {
 .details-description {
   color: var(--gray);
   font-family: Outfit, "Times New Roman", Times, serif;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   letter-spacing: 1.5px;
   line-height: 140%;
 }
