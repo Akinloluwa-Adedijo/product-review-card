@@ -110,6 +110,7 @@ svg {
 
 @media (width < 800px) {
   body {
+    margin: auto;
     padding: 10px;
   }
   .card-container {
@@ -117,12 +118,14 @@ svg {
   }
 
   img {
-    width: 100%;
-    object-fit: cover;
+    src: url(https://raw.githubusercontent.com/Akinloluwa-Adedijo/product-review-card/main/images/image-product-mobile.jpg);
+    /* width: 100%; */
+    /* object-fit: cover; */
   }
 
   .card-image img {
-    max-height: 300px;
+    /* max-height: 200px; */
+    height: 300px;
     border-radius: 1.5rem 1.5rem 0 0;
   }
 }
