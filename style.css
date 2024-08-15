@@ -38,9 +38,8 @@ img {
 .card-details {
   display: inherit;
   flex-direction: column;
-  padding: 3.5rem;
-  gap: 2rem;
-  /* justify-content: space-between; */
+  padding: 1.5rem;
+  justify-content: space-between;
   max-width: 350px;
 }
 
@@ -119,13 +118,13 @@ svg {
 
   img {
     src: url(https://raw.githubusercontent.com/Akinloluwa-Adedijo/product-review-card/main/images/image-product-mobile.jpg);
-    /* width: 100%; */
-    /* object-fit: cover; */
   }
 
+  .card-details {
+    gap: 2rem;
+  }
   .card-image img {
-    /* max-height: 200px; */
-    height: 300px;
+    max-height: 300px;
     border-radius: 1.5rem 1.5rem 0 0;
   }
 }
